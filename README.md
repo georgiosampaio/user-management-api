@@ -1,10 +1,8 @@
-@'
-# User Management API
+﻿# User Management API
 
 A Spring Boot REST API developed to practice backend development with Java and Spring Boot.
 
 ## Technologies
-
 - Java
 - Spring Boot
 - Spring Data JPA
@@ -12,16 +10,10 @@ A Spring Boot REST API developed to practice backend development with Java and S
 - PostgreSQL
 
 ## Configuration
-
 Set these environment variables before running the application:
-
-- `DB_URL`
-- `DB_USERNAME`
-- `DB_PASSWORD`
+- DB_URL
+- DB_USERNAME
+- DB_PASSWORD
 
 ## Running Tests
-
-On Windows, execute:
-
-    .\mvnw.cmd clean test
-'@ | Set-Content -Encoding utf8 README.md
+On Windows, run: .\mvnw.cmd clean test
